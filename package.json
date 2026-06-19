@@ -1,0 +1,32 @@
+{
+  "name": "lan-drop-zero",
+  "version": "0.1.0",
+  "description": "AirDrop-style local file drop for any device on your LAN. No cloud, no account, no dependencies.",
+  "type": "module",
+  "bin": {
+    "lan-drop-zero": "./bin/lan-drop-zero.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "npm test"
+  },
+  "keywords": [
+    "lan",
+    "file-sharing",
+    "airdrop",
+    "local-first",
+    "cli",
+    "zero-dependency"
+  ],
+  "author": "ban10yuu",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
