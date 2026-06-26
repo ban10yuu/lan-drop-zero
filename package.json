@@ -1,7 +1,7 @@
 {
   "name": "lan-drop-zero",
   "version": "0.1.0",
-  "description": "AirDrop-style local file drop for any device on your LAN. No cloud, no account, no dependencies.",
+  "description": "Move files between devices on the same Wi-Fi with one local command. No cloud or account.",
   "type": "module",
   "bin": {
     "lan-drop-zero": "./bin/lan-drop-zero.js"
