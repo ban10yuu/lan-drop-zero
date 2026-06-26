@@ -6,7 +6,7 @@ import { createDropServer } from "../src/server.js";
 
 const help = `lan-drop-zero
 
-AirDrop-style local file drop for any device on your LAN.
+Move files between devices on the same Wi-Fi with one local command.
 
 Usage:
   lan-drop-zero [serve] [--dir ./dropbox] [--host 0.0.0.0] [--port 8741]
